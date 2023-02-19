@@ -1,5 +1,5 @@
 {
-  "name": "@saltcorn/tabulator",
+  "name": "@gianlucafiore/tabulator",
   "version": "0.5.17",
   "description": "Grid editing view based on Tabulator",
   "main": "index.js",

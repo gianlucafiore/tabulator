@@ -1185,7 +1185,20 @@ const run = async (table_id, viewname, cfg, state, extraArgs) => {
         `
             : `data: ${JSON.stringify(rows)},`
         }
-        
+        langs:{
+        "es":{ //Spanish language definition 
+            "pagination":{
+                "first":"Primer",
+                "first_title":"Primera pag.",
+                "last":"Última",
+                "last_title":"Último",
+                "prev":"Previo",
+                "prev_title":"Prev",
+                "next":"Siguiente",
+                "next_title":"Página siguiente",
+                "all":"Todos",
+            },
+        },
         layout:"fit${fit || "Columns"}", 
         ${responsiveLayout ? `responsiveLayout: "${responsiveLayout}",` : ""}
         columns,
